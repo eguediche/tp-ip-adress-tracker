@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ip address tracker</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+ crossorigin=""></script>
 </head>
 <body>
     <section class="container">
@@ -19,34 +26,34 @@
             <div class="ipAddress" id="ipIntelDiv">
                 <h3>IP ADDRESS</h3>
                 <h2 id="ipAddress">
-                    ZZZ
+                    mon paf suprème
                 </h2>
             </div>
             <hr>
             <div class="ipLocation" id="ipIntelDiv">
                 <h3>LOCATION</h3>
                 <h2 id="ipLocation">
-                    ZZZ
+                    mon paf suprème
                 </h2>
             </div>
             <hr>
             <div class="ipTimeZone" id="ipIntelDiv">
                 <h3>TIMEZONE</h3>
                 <h2 id="ipTimeZone">
-                    ZZZ
+                    mon paf suprème
                 </h2>
             </div>
             <hr>
             <div class="ipIsp" id="ipIntelDiv">
                 <h3>ISP</h3>
                 <h2 id="ipIsp">
-                    ZZZ
+                    mon paf suprème
                 </h2>
             </div>
         </section>
-        <section class="map">
-        </section>
     </section>
+    <div id="map">
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
